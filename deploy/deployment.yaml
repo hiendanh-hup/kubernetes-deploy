@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: tran0612/kubernetes-cicd:202607281258
-        ports:
-        - containerPort: 80
+        - name: nginx
+          image: tran0612/kubernetes-cicd:202607290952
+          ports:
+            - containerPort: 80
